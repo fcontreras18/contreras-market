@@ -52,6 +52,11 @@
   color: #ffbbbc;
 }
 
+.navbar-header img {
+  max-height: 300%;
+  width: auto;
+}
+
 /* entypo */
 [class*="entypo-"]:before {
   font-family: 'entypo', sans-serif;
@@ -62,7 +67,8 @@
 
 .social-logo {
   text-align: center;
-  margin-top: 20px; 
+  margin-top: 20px;
+  margin-bottom: 20px; 
 }
 
 .copyright {
@@ -72,6 +78,79 @@
 .address { 
     float: right;
 }
+
+.bg-index {
+  background: url(../images/index.jpg) no-repeat center center;
+  position: absolute;
+  width: 100%;
+  height: 350px; /*same height as jumbotron */
+  top:0;
+  left:0;
+  z-index: -1;
+}
+.bg-about {
+  background: url(../images/about.jpg) no-repeat center center;
+  position: absolute;
+  width: 100%;
+  height: 350px; /*same height as jumbotron */
+  top:0;
+  left:0;
+  z-index: -1;
+}
+.bg-taqueria {
+  background: url(../images/taqueria.jpg) no-repeat center center;
+  position: absolute;
+  width: 100%;
+  height: 350px; /*same height as jumbotron */
+  top:0;
+  left:0;
+  z-index: -1;
+}
+.bg-carniceria {
+  background: url(../images/carniceria.jpg) no-repeat center center;
+  position: absolute;
+  width: 100%;
+  height: 350px; /*same height as jumbotron */
+  top:0;
+  left:0;
+  z-index: -1;
+}
+.bg-panaderia {
+  background: url(../images/panaderia.jpg) no-repeat center center;
+  position: absolute;
+  width: 100%;
+  height: 350px; /*same height as jumbotron */
+  top:0;
+  left:0;
+  z-index: -1;
+}
+.bg-catering {
+  background: url(../images/catering.jpg) no-repeat center center;
+  position: absolute;
+  width: 100%;
+  height: 350px; /*same height as jumbotron */
+  top:0;
+  left:0;
+  z-index: -1;
+}
+.bg-products {
+  background: url(../images/products.jpg) no-repeat center center;
+  position: absolute;
+  width: 100%;
+  height: 350px; /*same height as jumbotron */
+  top:0;
+  left:0;
+  z-index: -1;
+}
+
+
+.jumbotron {
+  height: 350px;
+  color: white;
+  text-shadow: #555 0 3px 3px;
+  background:transparent;
+}
+
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -86,5 +165,13 @@
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #ffbbbc;
     background-color: #c0392b;
+  }
+  .navbar-header img{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
   }
 }
