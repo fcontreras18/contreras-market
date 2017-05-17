@@ -52,9 +52,14 @@
   color: #ffbbbc;
 }
 
-.navbar-header img {
-  max-height: 300%;
-  width: auto;
+.navbar-default .navbar-brand {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.navbar-brand img {
+  height: 100%;
+  margin-right: 20px;
 }
 
 /* entypo */
@@ -147,8 +152,11 @@
 .jumbotron {
   height: 350px;
   color: white;
-  text-shadow: #555 0 3px 3px;
+  text-shadow: rgba(0,0,0,0.95) 1px 1px;
   background:transparent;
+}
+.transparent{
+  background:rgba(0,0,0,0.3);
 }
 
 
